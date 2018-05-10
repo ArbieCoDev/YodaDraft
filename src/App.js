@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import Admin from './Components/Admin/Admin';
 import Student from './Components/Student/Student';
 import Teacher from './Components/Teacher/Teacher';

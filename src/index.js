@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import WebFontLoader from 'webfontloader';
 
 WebFontLoader.load({
@@ -13,4 +12,4 @@ WebFontLoader.load({
 });
 
 ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
-registerServiceWorker();
+
