@@ -17,6 +17,7 @@ import StudentAssignments from './student-assignments';
 import StudentGrades from './student-grades';
 import StudentPortfolio from './student-portfolio';
 import StudentMessages from './student-messages';
+import StudentTodo from './student-messages';
 
 const navItems = [{
   exact: true,
@@ -28,6 +29,11 @@ const navItems = [{
   label: 'My Courses',
   to: '/Student/Courses',
   icon: 'school',
+},
+{
+  label: 'To Do List',
+  to: '/Student/Todo',
+  icon: 'message',
 },
 {
   label: 'Quizzes',
@@ -75,6 +81,7 @@ class Student extends Component {
               <Route path="/Student/Grades" location={location} component={StudentGrades} />
               <Route path="/Student/Eprofile" location={location} component={StudentPortfolio} />
               <Route path="/Student/Messenger" location={location} component={StudentMessages} />
+              <Route path="/Student/Todo" location={location} component={StudentTodo} />
             </Switch>
           </NavigationDrawer>
         )}
