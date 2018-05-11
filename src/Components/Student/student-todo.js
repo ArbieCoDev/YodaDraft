@@ -57,7 +57,6 @@ export default class StudentTodo extends Component {
         </Card>
         <Card className="cards__example md-cell md-cell--12 md-cell--8-tablet">
       <CardTitle title="Some Text" subtitle="" />
-      <center><FileInput id="image-input-3" accept="image/*" name="images" primary /></center>
     </Card>
       </div>
     );
