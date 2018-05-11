@@ -17,7 +17,7 @@ import StudentAssignments from './student-assignments';
 import StudentGrades from './student-grades';
 import StudentPortfolio from './student-portfolio';
 import StudentMessages from './student-messages';
-import StudentTodo from './student-messages';
+import StudentTodo from './student-todo';
 
 const navItems = [{
   exact: true,
