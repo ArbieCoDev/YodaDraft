@@ -33,7 +33,7 @@ const navItems = [{
 {
   label: 'To Do List',
   to: '/Student/Todo',
-  icon: 'message',
+  icon: 'list',
 },
 {
   label: 'Quizzes',
