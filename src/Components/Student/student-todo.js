@@ -14,8 +14,8 @@ export default class StudentTodo extends Component {
   render() {
     return (
       <div className="md-grid">
-        <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-          <CardTitle title="Assignments" subtitle="" />
+        <Card className="cards__example md-cell md-cell--12 md-cell--8-tablet">
+          <CardTitle title="To Do" subtitle="" />
           <CardText>
             <DataTable baseId="table-with-interactions">
             <TableHeader>
@@ -55,8 +55,8 @@ export default class StudentTodo extends Component {
             </DataTable>
           </CardText>
         </Card>
-        <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-      <CardTitle title="Submit Assignments" subtitle="" />
+        <Card className="cards__example md-cell md-cell--12 md-cell--8-tablet">
+      <CardTitle title="Some Text" subtitle="" />
       <center><FileInput id="image-input-3" accept="image/*" name="images" primary /></center>
     </Card>
       </div>
