@@ -1,7 +1,16 @@
 {
-  "main.css": "static/css/main.870b3ad7.css",
-  "main.css.map": "static/css/main.870b3ad7.css.map",
-  "main.js": "static/js/main.ca5e5ac4.js",
-  "main.js.map": "static/js/main.ca5e5ac4.js.map",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.fed7b236.css",
+  "main.css.map": "static/css/main.fed7b236.css.map",
+  "main.js": "static/js/main.d96f07d2.js",
+  "main.js.map": "static/js/main.d96f07d2.js.map",
+  "static\\media\\brainpop.png": "static/media/brainpop.9ecc6d6f.png",
+  "static\\media\\educationcity.png": "static/media/educationcity.7d987800.png",
+  "static\\media\\imaginemath.png": "static/media/imaginemath.6466155f.png",
+  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static\\media\\ownit.png": "static/media/ownit.2fe32a94.png",
+  "static\\media\\peg.png": "static/media/peg.8e59d297.png",
+  "static\\media\\profile_cover.jpg": "static/media/profile_cover.aebda448.jpg",
+  "static\\media\\shmoop.png": "static/media/shmoop.c566cc06.png",
+  "static\\media\\studyisland.png": "static/media/studyisland.4c1f6184.png",
+  "static\\media\\utahlibrary.png": "static/media/utahlibrary.7ca855ff.png"
 }
