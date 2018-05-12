@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavigationDrawer from 'react-md/lib/NavigationDrawers';
 import NavLink from '../NavLink';
+import $ from 'jquery';
 import {
     DataTable,
     TableHeader,
@@ -18,16 +19,17 @@ import StudentGrades from './student-grades';
 import StudentPortfolio from './student-portfolio';
 import StudentMessages from './student-messages';
 import StudentTodo from './student-todo';
+import StudentHomeroom from './student-homeroom';
 
 const navItems = [{
   exact: true,
-  label: 'Profile',
+  label: 'Dashboard',
   to: '/Student/',
-  icon: 'face',
+  icon: 'home',
 },
 {
-  label: 'My Courses',
-  to: '/Student/Courses',
+  label: 'Homeroom',
+  to: '/Student/Homeroom',
   icon: 'school',
 },
 {
@@ -63,13 +65,36 @@ const navItems = [{
 ];
 
 class Student extends Component {
+
+  constructor(props) {
+    super();
+
+    this.state = { toolbarTitle: this.getCurrentTitle(props) };
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({ toolbarTitle: this.getCurrentTitle(nextProps) });
+  }
+
+  getCurrentTitle = ({ location: { pathname } }) => {
+    let lastSection = pathname.substring(pathname.lastIndexOf('/') + 1);
+
+    if(lastSection === ""){
+      lastSection = 'Student Dashboard';
+    }
+    $('#main-toolbar-title').text(lastSection);
+
+
+  };
+
   render() {
     return (
       <Route
         render={({ location }) => (
           <NavigationDrawer
             drawerTitle="{PROJECT YODA}"
-            toolbarTitle="Student Draft"
+            toolbarTitle="Student Dashboard"
+            toolbarId="main-toolbar"
             navItems={navItems.map(props => <NavLink {...props} key={props.to} />)}
             drawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MINI}
           >
@@ -82,6 +107,7 @@ class Student extends Component {
               <Route path="/Student/Eprofile" location={location} component={StudentPortfolio} />
               <Route path="/Student/Messenger" location={location} component={StudentMessages} />
               <Route path="/Student/Todo" location={location} component={StudentTodo} />
+              <Route path="/Student/Homeroom" location={location} component={StudentHomeroom} />
             </Switch>
           </NavigationDrawer>
         )}
