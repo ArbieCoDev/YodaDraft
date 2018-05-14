@@ -35,9 +35,6 @@ export default class StudentCourse1 extends Component {
           <Button secondary raised  className="course-big-buttons" >Quizzes</Button><br></br>
           <Button secondary raised  className="course-big-buttons" >Assignments</Button><br></br>
           <Button secondary raised  className="course-big-buttons" >Projects</Button><br></br>
-          {/* <Button flat secondary swapTheming>Quizzes</Button>
-          <Button flat secondary swapTheming>Assignments</Button>
-          <Button flat secondary swapTheming>Projects</Button> */}
           </div>
       </CardText>
     </Card>

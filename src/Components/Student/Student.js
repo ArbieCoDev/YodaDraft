@@ -61,7 +61,7 @@ const navItems = [{
 },
 {
   label: 'Portfolio',
-  to: '/Student/Eprofile',
+  to: '/Student/Portfolio',
   icon: 'folder_shared',
 },
 {
@@ -111,7 +111,7 @@ class Student extends Component {
               <Route path="/Student/Quizzes" location={location} component={StudentQuizzes} />
               <Route path="/Student/Assignments" location={location} component={StudentAssignments} />
               <Route path="/Student/Grades" location={location} component={StudentGrades} />
-              <Route path="/Student/Eprofile" location={location} component={StudentPortfolio} />
+              <Route path="/Student/Portfolio" location={location} component={StudentPortfolio} />
               <Route path="/Student/Messenger" location={location} component={StudentMessages} />
               <Route path="/Student/Todo" location={location} component={StudentTodo} />
               <Route path="/Student/Homeroom" location={location} component={StudentHomeroom} />

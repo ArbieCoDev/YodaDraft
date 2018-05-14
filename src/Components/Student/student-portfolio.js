@@ -5,36 +5,26 @@ export default class StudentPortfolio extends Component {
   render() {
     return (
   <div className="md-grid">
-    <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-      <CardTitle title="Student Portfolio" subtitle="" />
+    <Card className="cards__example md-cell md-cell--12 md-cell--8-tablet ">
+    <CardTitle title="September Highlights" className="portfolio-1" />
       <CardText>
-        <h5>Some Text here</h5>
+      <p className="portfolio-draft">
+        [click to copy / insert a good Learning Log here from Homeroom (embed from Yoda)]
+      </p>
+      <p className="portfolio-draft">
+       [click to copy / insert a good project from Robotics course (embed from Yoda)]
+      </p>
+      <p className="portfolio-draft">
+      [click to upload a photo / document representing something you enjoyed from a Core class (i.e Math, English, History, Science)] 
+      </p>
+      <p className="portfolio-draft">
+      [click to upload a photo / document representing something you enjoyed from a Core class (i.e Math, English, History, Science)]      </p>
+      <p className="portfolio-draft">
+       [click to upload a photo / document representing something you enjoyed from an elective class (i.e Tech, Entrepreneurship,Art, Music, P.E., etc.)]
+      </p>
       </CardText>
     </Card>
-    <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-      <CardTitle title="Placeholder" subtitle="" />
-      <CardText>
-        <p>
-          Some text here
-        </p>
-      </CardText>
-    </Card>
-    <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-      <CardTitle title="Placeholder" subtitle="Draft" />
-      <CardText>
-        <p>
-          Some text here
-        </p>
-      </CardText>
-    </Card>
-    <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
-      <CardTitle title="Placeholder" subtitle="Draft" />
-      <CardText>
-        <p>
-          Some text here
-        </p>
-      </CardText>
-    </Card>
+    
   </div>
     );
   }

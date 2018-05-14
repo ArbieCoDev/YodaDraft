@@ -47,6 +47,9 @@
 .subject-2{
     background-color:#2196f3
 }
+.portfolio-1{
+    background-color:#00bcd4
+}
 .course-summary-text{
     text-align:center
 }
@@ -149,4 +152,14 @@ margin:5px !important;
 }
 .course-summary-center{
     text-align: center;
+}
+.portfolio-draft{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    padding:10px
+}
+.portfolio-draft:hover{
+    background-color: #03a9f4;
+    color:white;
+    cursor: pointer;
 }
