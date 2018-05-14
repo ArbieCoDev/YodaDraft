@@ -37,22 +37,12 @@ const navItems = [{
 {
   label: 'LEGO Robotics EV3',
   to: '/Student/Lego-Robotics-EV3',
-  icon: 'list',
+  icon: 'school',
 },
 {
   label: 'To Do List',
   to: '/Student/Todo',
   icon: 'list',
-},
-{
-  label: 'Quizzes',
-  to: '/Student/Quizzes',
-  icon: 'assessment',
-},
-{
-  label: 'Assignments',
-  to: '/Student/Assignments',
-  icon: 'assignment',
 },
 {
   label: 'Grades',
