@@ -35,7 +35,7 @@ export default class StudentHome extends Component {
       </CardText>
     </Card>
     <Card className="cards__example md-cell md-cell--4 md-cell--8-tablet">
-      <CardTitle title="To Do List" subtitle="(Most Recent)" />
+      <CardTitle title="Combined To Do List" subtitle="(Most Recent)" />
       <CardText>
           <ul className="checklist-todo md-text--secondary">
             <li><input type="checkbox" /> Weekly Learning Log #22</li>
