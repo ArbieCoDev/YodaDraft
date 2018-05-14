@@ -20,6 +20,8 @@ import StudentPortfolio from './student-portfolio';
 import StudentMessages from './student-messages';
 import StudentTodo from './student-todo';
 import StudentHomeroom from './student-homeroom';
+import StudentCourse1 from './student-course1';
+import './Student.css';
 
 const navItems = [{
   exact: true,
@@ -31,6 +33,11 @@ const navItems = [{
   label: 'Homeroom',
   to: '/Student/Homeroom',
   icon: 'school',
+},
+{
+  label: 'LEGO Robotics EV3',
+  to: '/Student/Lego-Robotics-EV3',
+  icon: 'list',
 },
 {
   label: 'To Do List',
@@ -108,6 +115,7 @@ class Student extends Component {
               <Route path="/Student/Messenger" location={location} component={StudentMessages} />
               <Route path="/Student/Todo" location={location} component={StudentTodo} />
               <Route path="/Student/Homeroom" location={location} component={StudentHomeroom} />
+              <Route path="/Student/Lego-Robotics-EV3" location={location} component={StudentCourse1} />
             </Switch>
           </NavigationDrawer>
         )}

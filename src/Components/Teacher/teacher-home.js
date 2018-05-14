@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText } from 'react-md';
-import './teacher-home.css';
 
 export default class TeacherHome extends Component {
   render() {

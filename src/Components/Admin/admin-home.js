@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText } from 'react-md';
-import './admin-home.css';
 
 export default class AdminHome extends Component {
   render() {

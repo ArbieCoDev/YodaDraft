@@ -12,7 +12,7 @@ import { Card,
         Checkbox,
         Switch,
         Divider} from 'react-md';
-import './student-home.css';
+
 
 export default class StudentHome extends Component {
   render() {

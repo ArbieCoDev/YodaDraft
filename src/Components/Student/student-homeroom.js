@@ -10,7 +10,6 @@ import {  Button,
           TableColumn,
           Divider,
           FileInput  } from 'react-md';
-import './student-home.css';
 
 
 export default class StudentHomeroom extends Component {

@@ -8,7 +8,6 @@ import { Card,
          List,
          ListItem,
          Subheader, } from 'react-md';
-import './admin-home.css';
 
 const InfoIcon = () => <FontIcon>info</FontIcon>;
 const StarIcon = () => <FontIcon>star</FontIcon>;
